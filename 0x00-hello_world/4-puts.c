@@ -1,5 +1,14 @@
 #include<stdio.h>
-/* We describing teh main fr */
+
+/**
+ * main - Entry point
+ *
+ * Description: this boi be printin fr
+ * @parameter: idk tbh
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	/* Initialising Char array */
@@ -7,5 +16,5 @@ int main(void)
 
 	puts(ReqStr);
 
-	return 0;
+	return(0);
 }
