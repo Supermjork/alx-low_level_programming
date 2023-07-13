@@ -4,7 +4,7 @@
  *
  * Description: BYTES GO BRRRRRRRRRRR
  *
- * Return 0: Always (Success)
+ * Return: 0 Always (Success)
  */
 int main(void)
 {

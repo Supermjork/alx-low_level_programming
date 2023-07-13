@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	/* BOI DO C98 COMMENTS HIT DIFF */
 	char OutStr[] = "with proper grammar, but the outcome is a piece of art,\n";
