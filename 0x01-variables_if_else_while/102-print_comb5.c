@@ -11,7 +11,7 @@ int main(void)
 	int cmpnd1;
 	int cmpnd0;
 
-	for (cmpnd1 = 0; cmpnd <=99; cmpnd1++)
+	for (cmpnd1 = 0; cmpnd1 <=99; cmpnd1++)
 	{
 		for (cmpnd0 = 0; cmpnd0 <= 99; cmpnd0++)
 		{
