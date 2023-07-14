@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+/**
+ * main - FOR THE THIRD TIME, IT MESSED THE OUTPUT OF GCC
+ *
+ * Return: 0 Always (Success)
+ */
+
+int main(void)
+{
+	int n;
+	int LastDigit;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	LastDigit = n % 10;
+
+	if (LastDigit > 5) {
+		printf("Last digit of %d is %d and is greater than 5", n, LastDigit);
+	} else {
+		if (LastDigit == 0) {
+			printf("Last digit of %d is %d and is 0", n, LastDigit);
+		} else {
+			printf("Last digit of %d is %d and is less than 6 and not 0", n, LastDigit);
+		}
+	}
+
+	return (0);
+}
+
