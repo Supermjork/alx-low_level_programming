@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-/*
+/**
  * main - combinatorics pain
  *
  * Return: 0 ALways (Success)
