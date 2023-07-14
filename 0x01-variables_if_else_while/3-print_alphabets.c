@@ -8,20 +8,17 @@
 
 int main(void)
 {
-		char lower;
-		char upper;
+	char lower;
+	char upper;
 
-		for (lower = 'a'; lower <= 'z'; lower++)
-		{
-				putchar(lower);
-		}
+	for (lower = 'a'; lower <= 'z'; lower++)
+		putchar(lower);
 
-		for (upper = 'A'; upper <= 'Z'; upper++)
-		{
-				putchar(upper);
-		}
-		putchar('\n');
+	for (upper = 'A'; upper <= 'Z'; upper++)
+		putchar(upper);
 
-		return (0);
+	putchar('\n');
+
+	return (0);
 
 }
