@@ -25,7 +25,7 @@ int main(void)
 				putchar((cmpnd0 / 10) + '0');
 				putchar((cmpnd0 % 10) + '0');
 
-				if (i != 98 || j != 99)
+				if (cmpnd0 != 98 || cmpnd1 != 99)
 				{
 					putchar(44);
 					putchar(32);
