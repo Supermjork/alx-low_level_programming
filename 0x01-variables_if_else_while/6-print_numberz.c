@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - print NUMBAS BIG MAN
+ * main - BIG STOMPID
  *
  * Return: 0 Always (Success)
  */
@@ -11,7 +11,7 @@ int main(void)
 	int num;
 
 	for (num = 0; num < 10; num++)
-		printf("%d", num);
+		putchar(48 + num);
 
 	putchar('\n');
 

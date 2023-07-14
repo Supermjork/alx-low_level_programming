@@ -1,19 +1,18 @@
 #include<stdio.h>
 
 /**
- * main - print NUMBAS BIG MAN
+ * main - big stinker
  *
  * Return: 0 Always (Success)
  */
 
 int main(void)
 {
-	int num;
+	char rettel;
 
-	for (num = 0; num < 10; num++)
-		printf("%d", num);
+	for (rettel = 'z'; rettel >= 'a'; rettel--)
+		putchar(rettel);
 
 	putchar('\n');
-
 	return (0);
 }
