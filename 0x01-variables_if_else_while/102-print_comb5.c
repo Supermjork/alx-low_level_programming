@@ -11,7 +11,7 @@ int main(void)
 	int cmpnd1;
 	int cmpnd0;
 
-	for (cmpnd1 = 0; cmpnd1 <=99; cmpnd1++)
+	for (cmpnd1 = 0; cmpnd1 <= 99; cmpnd1++)
 	{
 		for (cmpnd0 = 0; cmpnd0 <= 99; cmpnd0++)
 		{
@@ -25,7 +25,7 @@ int main(void)
 				putchar((cmpnd0 / 10) + '0');
 				putchar((cmpnd0 % 10) + '0');
 
-				if (cmpnd0 != 98 || cmpnd1 != 99)
+				if (cmpnd1 != 98 || cmpnd0 != 99)
 				{
 					putchar(44);
 					putchar(32);
