@@ -14,7 +14,7 @@ int main(void)
 	unsigned long fib;
 	int i;
 
-	printf("%d, %d, ", n0, n1);
+	printf("%lu, %lu, ", n0, n1);
 
 	for (i = 2; i <= lim; i++)
 	{
@@ -22,11 +22,11 @@ int main(void)
 
 		if (i == lim - 1)
 		{
-			printf("%d\n", fib);
+			printf("%lu\n", fib);
 		}
 		else
 		{
-			printf("%d, ", fib);
+			printf("%lu, ", fib);
 		}
 
 		n0 = n1;
