@@ -18,7 +18,7 @@ void print_to_98(int start)
 			printf("%d, ", start);
 		}
 	}
-	else 
+	else
 		for (start = start; start > 98; start--)
 		{
 			printf("%d, ", start);
