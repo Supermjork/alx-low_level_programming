@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	int n0 = 1;
-	int n1 = 2;
-	int lim = 50;
-	int fib, i;
+	unsigned long n0 = 1;
+	unsigned long n1 = 2;
+	unsigned long fib;
+	int i;
 
-	printf("%d, %d, ", 1, 2);
+	printf("%d, %d, ", n0, n1);
 
 	for (i = 2; i <= lim; i++)
 	{
