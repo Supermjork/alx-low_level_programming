@@ -14,27 +14,13 @@ void jack_bauer(void)
 	{
 		for (min = 0; min < 60; min++)
 		{
-			if (hr < 10)
-			{
-				_putchar(48);
-				_putchar(hr);
-			}
-			else
-			{
-				_putchar(hr);
-			}
+			_putchar((hr / 10) + 48);
+			_putchar((hr % 10) + 48);
 
 			_putchar(58);
 
-			if (min < 10)
-			{
-				_putchar(48);
-				_putchar(min);
-			}
-			else
-			{
-				_putchar(min);
-			}
+			_putchar((min / 10) + 48);
+			_putchar((min % 10) + 48);
 
 			_putchar(10);
 		}
