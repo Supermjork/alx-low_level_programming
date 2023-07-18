@@ -1,14 +1,23 @@
-#include<stdio.h>
+#include<main.h>
 
 /**
- * main - Boutta print "putchar" so hard rn
+ * main - prints "_putchar"
  *
  * Return: 0 Always (Success)
  */
 
 int main(void)
 {
-	printf("%cputchar", 95);
+	_putchar(95);
+	_putchar(112);
+	_putchar(117);
+	_putchar(116);
+	_putchar(99);
+	_putchar(104);
+	_putchar(97);
+	_putchar(114);
+	_putchar(10);
 
 	return (0);
 }
+
