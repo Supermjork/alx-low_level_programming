@@ -20,7 +20,7 @@ void times_table(void)
 			if (num != 0)
 			{
 				_putchar(44);
-				_putchar(20);
+				_putchar(32);
 			}
 
 			if (prod >= 10)
@@ -30,7 +30,7 @@ void times_table(void)
 			}
 			else if ((prod < 10) && (num != 0))
 			{
-				_putchar(20);
+				_putchar(32);
 				_putchar((prod % 10) + 48);
 			}
 			else
