@@ -11,8 +11,8 @@ int main(void)
 {
 	unsigned long n0, n1, fib, sum;
 
-	n0 = 1;
-	n1 = 2;
+	n0 = 0;
+	n1 = 1;
 	fib = 3;
 	sum = 0;
 
