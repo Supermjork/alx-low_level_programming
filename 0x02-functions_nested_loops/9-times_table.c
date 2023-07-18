@@ -17,7 +17,7 @@ void times_table(void)
 			prod = table * num;
 
 			/* Formatting the output */
-			if (x != 0)
+			if (num != 0)
 			{
 				_putchar(44);
 				_putchar(20);
@@ -28,7 +28,7 @@ void times_table(void)
 				_putchar((prod / 10) + 48);
 				_putchar((prod % 10) + 48);
 			}
-			else if ((prod < 10) && (x != 0))
+			else if ((prod < 10) && (num != 0))
 			{
 				_putchar(20);
 				_putchar((prod % 10) + 48);
