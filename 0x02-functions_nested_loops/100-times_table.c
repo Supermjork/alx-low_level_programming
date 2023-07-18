@@ -19,7 +19,7 @@ void print_times_table(int n)
 			for (num = 0; num <= n; num++)
 			{
 				prod = num * table;
-				
+
 				if (num != 0)
 				{
 					_putchar(44);
@@ -29,17 +29,19 @@ void print_times_table(int n)
 				if ((prod < 10) && (num != 0))
 				{
 					_putchar(32);
+					_putchar(32);
 					_putchar((prod % 10) + 48);
 				}
 				else if (prod >= 10 && prod < 100)
 				{
+					_putchar(32);
 					_putchar((prod / 10) + 48);
 					_putchar((prod % 10) + 48);
 				}
-				else if ((prod >=100) && (num !=0))
+				else if ((prod >= 100) && (num != 0))
 				{
 					_putchar((prod / 100) + 48);
-					_putchar((prod / 10) + 48);
+					_putchar((prod / 10) % 10 + 48);
 					_putchar((prod % 10) + 48);
 				}
 				else

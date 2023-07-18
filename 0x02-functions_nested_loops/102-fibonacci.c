@@ -17,7 +17,7 @@ int main(void)
 
 	printf("%lu, %lu, ", n0, n1);
 
-	for (i = 2; i <= lim; i++)
+	for (i = 2; i < lim; i++)
 	{
 		fib = n0 + n1;
 
