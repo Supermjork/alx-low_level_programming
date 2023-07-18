@@ -26,12 +26,12 @@ void print_times_table(int n)
 					_putchar(32);
 				}
 
-				if ((prod <= 10) && (num != 0))
+				if ((prod < 10) && (num != 0))
 				{
 					_putchar(32);
 					_putchar((prod % 10) + 48);
 				}
-				else if (prod >= 10)
+				else if (prod >= 10 && prod < 100)
 				{
 					_putchar((prod / 10) + 48);
 					_putchar((prod % 10) + 48);

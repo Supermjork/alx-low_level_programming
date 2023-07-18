@@ -13,6 +13,7 @@ int main(void)
 	unsigned long n1 = 2;
 	unsigned long fib;
 	int i;
+	int lim = 50;
 
 	printf("%lu, %lu, ", n0, n1);
 
