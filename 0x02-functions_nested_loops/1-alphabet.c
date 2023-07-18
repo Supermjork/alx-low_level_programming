@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabhet - prints all letters in the alphabet
+ * print_alphabet - prints all letters in the alphabet
  *
  * Return: 0 Always (On success)
  */
