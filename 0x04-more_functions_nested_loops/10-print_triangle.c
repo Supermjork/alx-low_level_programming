@@ -18,7 +18,7 @@ void print_triangle(int size)
 	{
 		int height, whites;
 
-		for (height = 0; height < size; height++)
+		for (height = 0; height <= size; height++)
 		{
 			for (whites = height; whites < size; whites++)
 			{
