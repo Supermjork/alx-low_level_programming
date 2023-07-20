@@ -20,14 +20,14 @@ void print_triangle(int size)
 
 		for (height = 0; height < size; height++)
 		{
-			for (whites = 0; whites < size; whites++)
+			for (whites = height; whites < size; whites++)
 			{
-				if (whites < size - height - 1)
-				{
-					_putchar(20);
-				}
-				else
-					_putchar(35);
+				_putchar(20);
+			}
+
+			for (whites = 1; whites <= height; whites++)
+			{
+				_putchar(35);
 			}
 			_putchar(10);
 		}
