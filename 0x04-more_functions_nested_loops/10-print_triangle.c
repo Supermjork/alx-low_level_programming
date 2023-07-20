@@ -22,7 +22,7 @@ void print_triangle(int size)
 		{
 			for (whites = 0; whites < size; whites++)
 			{
-				if (whites < rows - height - 1)
+				if (whites < size - height - 1)
 				{
 					_putchar(20);
 				}
