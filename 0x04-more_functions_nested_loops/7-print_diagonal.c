@@ -3,6 +3,7 @@
 /**
  * print_diagonal - prints n number of \
  *
+ * @n: number of lines with \
  * Return: void
  */
 
