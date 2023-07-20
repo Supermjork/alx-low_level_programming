@@ -8,22 +8,19 @@
 
 void more_numbers(void)
 {
-	int dig0, dig1, count;
+	int dig0, dig1;
 
-	for (count = 0; count < 10; count++)
+	for (dig1 = 0; dig1 < 10; dig1++)
 	{
-		for (dig1 = 0; dig1 < 2; dig1++)
+		for (dig0 = 0; dig0 < 15; dig0++)
 		{
-			for (dig0 = 0; dig0 < 15; dig0++)
+			if (digd0 >= 10)
 			{
-				if (dig1 == 1)
-				{
-					_putchar(48 + dig1)
-				}
-
-				_putchar(48 + (dig0 % 10));
+				_putchar(48 + (dig0 / 10))
 			}
+
+			_putchar(48 + (dig0 % 10));
 		}
-		_putchar(10);
 	}
+	_putchar(10);
 }
