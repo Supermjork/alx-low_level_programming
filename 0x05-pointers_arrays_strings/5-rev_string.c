@@ -21,13 +21,13 @@ void rev_string(char *str)
 
 	for (; s_len > 0; s_len--)
 	{
-		rev[r_len] = str[s_len - 1];
+		rev[r_len] = *(str + s_len - 1);
 		r_len++;
 	}
 
 	while (s_len < r_len)
 	{
-		str[s_len] = rev[s_len];
+		*(str + s_len) = rev[s_len];
 		s_len++;
 	}
 }
