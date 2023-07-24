@@ -12,12 +12,15 @@ void puts2(char *str)
 {
 	int idx, hed;
 
-	for (hed = 0; *str != '\0'; str++)
+	hed = 0;
+	idx = 0;
+
+	for (; *str != '\0'; str++)
 	{
 		hed++;
 	}
 
-	for (idx = 0; idx < hed; idx += 2)
+	for (; idx < hed; idx += 2)
 	{
 		_putchar(*(str + idx));
 	}
