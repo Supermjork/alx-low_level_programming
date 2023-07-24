@@ -19,7 +19,7 @@ char *_strcpy(char *dest, char *src)
 	{
 		*(dest + idx) = *(src + idx);
 
-		if(*(src + idx) == '\0')
+		if (*(src + idx) == '\0')
 			return (dest);
 
 		idx++;
