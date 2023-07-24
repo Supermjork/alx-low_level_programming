@@ -19,7 +19,7 @@ int _atoi(char *str)
 	value = 0;
 
 	/* iterating over each character to decide the last sign */
-	for (idx = 0; *(str + idx) != '\0'; !(str[idx] > 47 && str[idx] < 58; idx++))
+	for (idx = 0; *(str + idx) != '\0'; !(str[idx] > 47 && str[idx] < 58); idx++)
 	{
 		if (*(str + idx) == 45)
 			sign *= -1;
