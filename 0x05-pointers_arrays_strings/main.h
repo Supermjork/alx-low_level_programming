@@ -1,3 +1,4 @@
 #include <unistd.h>
-void reset_to_98(int);
+int _putchar(int);
+void reset_to_98(int *n);
 
