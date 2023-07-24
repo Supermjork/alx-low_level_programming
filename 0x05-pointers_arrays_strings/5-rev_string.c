@@ -30,4 +30,6 @@ void rev_string(char *str)
 		*(str + s_len) = rev[s_len];
 		s_len++;
 	}
+
+	_puts(*str);
 }
