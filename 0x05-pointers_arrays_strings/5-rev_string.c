@@ -24,7 +24,7 @@ void rev_string(char *str)
 
 	while (s_len < r_len)
 	{
-		*(str + s_len) = rev[r_len];
+		*(str + s_len) = rev[s_len];
 		s_len++;
 	}
 }
