@@ -15,7 +15,7 @@ void puts2(char *str)
 	hed = 0;
 	idx = 0;
 
-	for (; *str != '\0'; str++)
+	while (*(str + hed) != '\0')
 	{
 		hed++;
 	}
@@ -24,5 +24,6 @@ void puts2(char *str)
 	{
 		_putchar(*(str + idx));
 	}
+
 	_putchar(10);
 }
