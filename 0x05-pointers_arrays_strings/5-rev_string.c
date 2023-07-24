@@ -31,5 +31,5 @@ void rev_string(char *str)
 		s_len++;
 	}
 
-	_puts(*str);
+	_puts(str);
 }
