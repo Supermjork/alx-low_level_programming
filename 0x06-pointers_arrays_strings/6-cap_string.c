@@ -63,5 +63,5 @@ char *cap_string(char *str)
 			upper(&str[ptr]);
 		}
 	}
-	return (str)
+	return (str);
 }
