@@ -19,7 +19,7 @@ char *upper(char *c)
 
 /**
  * new_word - regex majik
- * 
+ *
  * @c: character checked
  *
  * Return: 1 for separator, 0 if not

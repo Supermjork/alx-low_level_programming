@@ -19,4 +19,5 @@ char *string_toupper(char *str);
 char *cap_string(char *str);
 int new_word(char c);
 char *upper(char *c);
+char *leet(char *c);
 
