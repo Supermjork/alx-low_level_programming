@@ -59,7 +59,7 @@ char *cap_string(char *str)
 
 	for (ptr = 1; *(str + ptr) != '\0'; ptr++)
 	{
-		if (new_word(*(str + ptr - 1) == 1))
+		if (new_word(*(str + (ptr - 1)) == 1))
 		{
 			upper(&str[ptr]);
 		}

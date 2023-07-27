@@ -27,7 +27,7 @@ char *_strncat(char *dest, char *src, int n)
 		len_d++;
 	}
 
-	if (*(dest + len_d - 1) != '\0')
+	if (*(dest + (len_d - 1)) != '\0')
 	{
 		*(dest + len_d) = '\0';
 	}

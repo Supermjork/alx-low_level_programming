@@ -13,7 +13,7 @@ char *leet(char *c)
 	int org, rep;
 	char *replaced;
 
-	replaced = "aEeEoOtTlL4433007711";
+	replaced = "aAeEoOtTlL4433007711";
 
 	for (org = 0; c[org] != '\0'; org++)
 	{
