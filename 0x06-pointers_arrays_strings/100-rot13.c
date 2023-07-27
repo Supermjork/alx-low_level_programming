@@ -14,10 +14,10 @@ char *rot13(char *src)
 
 	int ptr;
 
-	for (ptr = 0; src[ptr] != '\0'; i++)
+	for (ptr = 0; src[ptr] != '\0'; ptr++)
 	{
 		if (src[ptr] >= 'A' && src[ptr] <= 'z')
-			src[ptr] = c[src[i] - 'A'];
+			src[ptr] = c[src[ptr] - 'A'];
 	}
-	return (src)
+	return (src);
 }
