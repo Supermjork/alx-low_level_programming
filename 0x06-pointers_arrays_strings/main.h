@@ -18,5 +18,5 @@ void reverse_array(int *array, int n);
 char *string_toupper(char *str);
 char *cap_string(char *str);
 int new_word(char c);
-char *upper(char c);
+char *upper(char *c);
 

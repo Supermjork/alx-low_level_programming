@@ -36,6 +36,7 @@ int new_word(char c)
 			return (1);
 		ptr++;
 	}
+	return (0);
 }
 
 /**
