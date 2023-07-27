@@ -17,11 +17,11 @@ char *leet(char *c)
 
 	for (org = 0; c[org] != '\0'; org++)
 	{
-		for (rep = 0; i <= 9; rep++)
+		for (rep = 0; rep <= 9; rep++)
 		{
 			if (c[org] == replaced[rep])
 				c[org] = replaced[rep + 10];
 		}
 	}
-	return (c)
+	return (c);
 }
