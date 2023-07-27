@@ -20,4 +20,5 @@ char *cap_string(char *str);
 int new_word(char c);
 char *upper(char *c);
 char *leet(char *c);
+char *rot13(char *src);
 
