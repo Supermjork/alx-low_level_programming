@@ -22,5 +22,8 @@ char *_strchr(char *str, char c)
 			return (&str[idx]);
 	}
 
+	if (*(str + idx) == c)
+		return (&str[idx]);
+
 	return (NULL);
 }
