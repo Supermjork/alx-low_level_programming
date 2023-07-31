@@ -26,4 +26,5 @@ unsigned int _strspn(char *str, char *accept);
 char *_strpbrk(char *s, char *accept);
 int compare(char *str0, char *str1);
 char *_strstr(char *haystack, char *needle);
+void print_chessboard(char (*a)[8]);
 
