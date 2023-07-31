@@ -27,4 +27,5 @@ char *_strpbrk(char *s, char *accept);
 int compare(char *str0, char *str1);
 char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
 
