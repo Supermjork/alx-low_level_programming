@@ -12,7 +12,7 @@ void print_chessboard(char (*array)[8])
 {
 	int row, col;
 
-	for (row = 0; row < 9; row++)
+	for (row = 0; row < 8; row++)
 	{
 		for (col = 0; col < 9; col++)
 		{
