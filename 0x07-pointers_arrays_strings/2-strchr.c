@@ -13,10 +13,13 @@ char *_strchr(char *str, char c)
 {
 	int idx;
 
+	if (src == NULL)
+		return (NULL);
+
 	for (idx = 0; *(str + idx) != '\0'; idx++)
 	{
 		if (*(str + idx) == c)
-			return (idx);
+			return (&(str + idx));
 	}
 
 	return (NULL);
