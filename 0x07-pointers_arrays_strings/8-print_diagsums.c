@@ -19,9 +19,9 @@ void print_diagsums(int *mat, int size)
 		main_diag += mat[idx * size + idx];
 	}
 
-	for (idx = 0; idx <= size; idx++)
+	for (idx = size - 1; idx >= 0; idx--)
 	{
-		sec_diag += mat[idx * size + (size - idx)];
+		sec_diag += mat[idx * size + (size - idx - 1)];
 	}
 
 	printf("%d, %d\n", main_diag, sec_diag);
