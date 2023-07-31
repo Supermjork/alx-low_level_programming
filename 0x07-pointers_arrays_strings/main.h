@@ -24,4 +24,6 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *str, char c);
 unsigned int _strspn(char *str, char *accept);
 char *_strpbrk(char *s, char *accept);
+int compare(char *str0, char *str1);
+char *_strstr(char *haystack, char *needle);
 
