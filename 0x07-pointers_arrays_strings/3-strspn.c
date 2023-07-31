@@ -9,7 +9,7 @@
  * Return: number of bytes that span substring within str
  */
 
-unsigned in _strspn(char *str, char *accept)
+unsigned int _strspn(char *str, char *accept)
 {
 	int str_idx, acc_idx, flag;
 
