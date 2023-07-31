@@ -20,7 +20,7 @@ unsigned int _strspn(char *str, char *accept)
 		for (acc_idx = 0; *(str + acc_idx) != '\0'; acc_idx++)
 		{
 			if (*(accept + acc_idx) == *(str + acc_idx))
-				flag = 1
+				flag = 1;
 		}
 
 		if (flag == 0)
