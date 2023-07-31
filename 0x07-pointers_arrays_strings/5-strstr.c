@@ -39,7 +39,7 @@ char *_strstr(char *haystack, char *needle)
 	if (*(needle) == '\0')
 		return (haystack);
 
-	for (idx = 0; *(haystack + idx) != '\0')
+	for (idx = 0; *(haystack + idx) != '\0'; idx++)
 	{
 		if (*needle == *(haystack + idx))
 		{
