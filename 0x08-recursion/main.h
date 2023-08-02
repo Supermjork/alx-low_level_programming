@@ -34,4 +34,6 @@ void _print_rev_recursion(char *s);
 int _strlen_recursion(char *str);
 int factorial(int n);
 int _pow_recursion(int base, int pwr);
+int _sqrt_recurstion(int n);
+int sqrt_test(int n, int t_case);
 
