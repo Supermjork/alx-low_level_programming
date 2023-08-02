@@ -10,13 +10,19 @@
 
 void _puts_recursion(char *str)
 {
-	if (*str == '\0')
+	int idx;
+
+	idx = 0;
+
+	if (*(str + idx) == '\0')
 	{
 		_putchar(10);
 		return;
 	}
 
-	_putchar(*str);
+	_putchar(*(str + idx));
 
-	_puts_recursion(*str++);
+	idx++;
+
+	_puts_recursion(str + idx);
 }
