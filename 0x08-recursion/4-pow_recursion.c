@@ -11,12 +11,10 @@
 
 int _pow_recursion(int base, int pwr)
 {
+	if (pwr < 0)
+		return (-1);
 	if (pwr == 0)
-	{
 		return (1);
-	}
-	else
-	{
-		return (base * _pow_recursion(base, pwr - 1));
-	}
+
+	return (base * _pow_recursion(base, pwr - 1));
 }
