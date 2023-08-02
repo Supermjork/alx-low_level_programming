@@ -10,16 +10,11 @@
 
 void _puts_recursion(char *str)
 {
-	int idx;
-
-	idx = 0;
-
-	if (*(str + idx) == '\0')
+	if (*str == '\0')
+		_putchar(10);
 		return;
 
-	_putchar(*(str + idx));
-	
-	idx++;
+	_putchar(str);
 
-	_puts_recursion(str + idx);
+	_puts_recursion(str++);
 }
