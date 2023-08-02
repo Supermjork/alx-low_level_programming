@@ -21,5 +21,5 @@ void _puts_recursion(char *str)
 	
 	idx++;
 
-	_puts_recursion(*(str + idx));
+	_puts_recursion(str + idx);
 }
