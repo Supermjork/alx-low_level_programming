@@ -26,12 +26,12 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	if (n0 == '-')
+	if (n0[0] == 45)
 		num0 = -1 * atoi(&n0[1]);
 	else
 		num0 = atoi(&n0[0]);
 
-	if (n1 == '-')
+	if (n1[0] == 45)
 		num1 = -1 * atoi(&n1[1]);
 	else
 		num1 = atoi(&n1[0]);
