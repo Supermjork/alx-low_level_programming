@@ -38,4 +38,5 @@ int _sqrt_recurstion(int n);
 int sqrt_test(int n, int t_case);
 int is_prime_number(int n);
 int prime_test(int n, int t_case);
+int numchecker(char *s);
 
