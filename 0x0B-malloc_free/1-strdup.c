@@ -34,7 +34,7 @@ char *_strdup(char *str)
 
 /**
  * _strlen - returns length of string
- * 
+ *
  * @str: passed string
  *
  * Return: length
