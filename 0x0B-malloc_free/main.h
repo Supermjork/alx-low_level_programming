@@ -39,4 +39,5 @@ int sqrt_test(int n, int t_case);
 int is_prime_number(int n);
 int prime_test(int n, int t_case);
 int numchecker(char *s);
+char create_array(unsigned int n, char c);
 

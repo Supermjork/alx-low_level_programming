@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 
 /**
  * create_array - Allocates an contiguos area of memory and fills with a char
