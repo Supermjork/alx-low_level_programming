@@ -42,4 +42,4 @@ int numchecker(char *s);
 char *create_array(unsigned int n, char c);
 char *_strdup(char *str);
 char *str_concat(char *str0, char *str1);
-
+int **alloc_grid(int width, int height);
