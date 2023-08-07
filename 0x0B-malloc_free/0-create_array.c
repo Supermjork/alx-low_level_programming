@@ -1,5 +1,5 @@
 #include "main.h"
-#include<stdio.h>
+#include<stlib.h>
 
 /**
  * create_array - Allocates an contiguos area of memory and fills with a char
@@ -18,7 +18,7 @@ char *create_array(unsigned int size, char c)
 	if (size == 0)
 		return (NULL);
 
-	arr_head = (char *)malloc(size * sizeof(char));
+	arr_head = (char *) malloc(size * sizeof(char));
 
 	if (arr_head == NULL)
 		return (NULL);
