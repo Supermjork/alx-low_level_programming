@@ -32,9 +32,9 @@ char *argstostr(int argc, char **argv)
 		size += _strlen(*(argv + i));
 	}
 
-	dest = (char *)malloc((size + 1) * sizeof(char));
+	finalstr = (char *)malloc((size + 1) * sizeof(char));
 
-	if (dest == NULL)
+	if (finalstr == NULL)
 		return (NULL);
 
 	for (i = 0; i < (unsigned int) argc; i++)
