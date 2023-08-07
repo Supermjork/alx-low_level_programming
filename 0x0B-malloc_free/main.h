@@ -44,4 +44,4 @@ char *_strdup(char *str);
 char *str_concat(char *str0, char *str1);
 int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
-
+char *argstostr(int ac, char **av);
