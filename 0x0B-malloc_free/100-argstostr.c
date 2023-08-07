@@ -56,7 +56,7 @@ char *argstostr(int argc, char **argv)
 
 /**
  * _strlen - returns length of string
- * 
+ *
  * @str: string passed
  *
  * Return: length of string
