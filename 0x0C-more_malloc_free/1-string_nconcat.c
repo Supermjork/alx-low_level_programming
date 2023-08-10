@@ -35,7 +35,6 @@ int _strlen(char *s)
 char *string_nconcat(char *str0, char *str1, unsigned int n)
 {
 	char *finalstr;
-
 	unsigned int size0, size1, idx0, idx1;
 
 	size0 = _strlen(str0);
@@ -61,7 +60,7 @@ char *string_nconcat(char *str0, char *str1, unsigned int n)
 		*(finalstr + idx0 + idx1) = *(str1 + idx1);
 	}
 
-	*(finalstr + idx0 + idx1) = '\0';
+	*(finalstr + size0 + size1) = '\0';
 
 	return (finalstr);
 }
