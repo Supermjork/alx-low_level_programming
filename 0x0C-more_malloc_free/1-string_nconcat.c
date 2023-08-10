@@ -1,5 +1,6 @@
 #include "main.h"
 #include<stdlib.h>
+#include<stdio.h>
 
 /**
  * _strlen - length of string
@@ -51,16 +52,14 @@ char *string_nconcat(char *str0, char *str1, unsigned int n)
 		return (NULL);
 
 	for (idx0 = 0; idx0 < size0 - 1; idx0++)
-	{
 		*(finalstr + idx0) = *(str0 + idx0);
-	}
 
-	for (idx1 = 0; idx1 <= n; idx1++)
+	for (idx1 = 0; idx1 < n; idx1++)
 	{
 		*(finalstr + idx0 + idx1) = *(str1 + idx1);
 	}
 
-	*(finalstr + size0 + size1) = '\0';
+	*(finalstr + idx0 + idx1) = '\0';
 
 	return (finalstr);
 }
