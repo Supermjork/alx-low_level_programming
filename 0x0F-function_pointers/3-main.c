@@ -4,11 +4,11 @@
 
 /**
  * main - main
- * 
+ *
  * @argc: count of args
  * @argv: array of args
  *
- * Return:
+ * Return: YES
  */
 
 int main(int argc, char *argv[])
