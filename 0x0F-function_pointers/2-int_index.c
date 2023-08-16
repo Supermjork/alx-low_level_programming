@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- * int_index = returns index
+ * int_index - returns index
  *
  * @array: array
  * @size: size
