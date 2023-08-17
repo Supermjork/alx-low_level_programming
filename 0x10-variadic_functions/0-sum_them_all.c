@@ -1,11 +1,10 @@
-#include "main.h"
 #include<stdarg.h>
 
 /**
  * sum_them_all - sums all passed arguments
  *
  * @n: amount of arguments
- * 
+ *
  * Return: sum
  */
 
