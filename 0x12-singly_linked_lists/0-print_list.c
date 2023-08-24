@@ -12,7 +12,9 @@
 
 size_t print_list(const list_t *head)
 {
-	size_t count = 0;
+	size_t count;
+
+	count = 0;
 
 	while (head != NULL)
 	{
