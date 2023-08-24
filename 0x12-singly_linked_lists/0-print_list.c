@@ -25,7 +25,7 @@ size_t print_list(const list_t *head)
 			printf("[%d] %s\n", head->len, head->str);
 		}
 
-		head = head->nxt;
+		head = head->next;
 		count++;
 	}
 

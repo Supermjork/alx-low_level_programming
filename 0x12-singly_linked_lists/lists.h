@@ -8,7 +8,7 @@
  *
  * @str: string within (Malloc'ed)
  * @len: Length of String
- * @nxt: Pointer to next node
+ * @next: Pointer to next node
  *
  * Description: Node structure within singly LL
  */
@@ -17,7 +17,7 @@ typedef struct list_s
 {
 	char *str;
 	unsigned int len;
-	struct list_s *nxt;
+	struct list_s *next;
 } list_t;
 
 int _strlen(const char *s);
