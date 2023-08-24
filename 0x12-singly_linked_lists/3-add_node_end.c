@@ -1,7 +1,5 @@
 #include "lists.h"
-#include <stdlib.h>
 #include <string.h>
-#include <stdio.h>
 
 /**
  * add_node_end - shoves a new tail on this b
